@@ -1,9 +1,9 @@
 {
-  "name": "pancake-subgraph",
+  "name": "chewy-subgraphs",
   "description": "ChewySwap Subgraph",
   "version": "2.0.0",
   "private": true,
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
+  "repository": "git@github.com:poodoge/chewy-subgraphs.git",
   "author": "ChewySwap",
   "license": "GPL-3.0-or-later",
   "workspaces": [
