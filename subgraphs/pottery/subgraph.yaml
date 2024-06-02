@@ -13,7 +13,7 @@ dataSources:
       startBlock: 20054712
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/index.ts
       entities:
@@ -38,7 +38,7 @@ templates:
       abi: PancakeSwapPotteryVault
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/vault/index.ts
       entities:

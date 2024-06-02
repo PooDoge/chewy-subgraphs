@@ -13,7 +13,7 @@ dataSources:
       startBlock: 7151302
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -43,7 +43,7 @@ dataSources:
       startBlock: 14661669
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -72,7 +72,7 @@ templates:
       abi: SmartChef
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/index.ts
       entities:

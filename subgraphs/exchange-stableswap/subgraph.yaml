@@ -16,7 +16,7 @@ dataSources:
       startBlock: 25535458
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -47,7 +47,7 @@ templates:
       abi: StableSwapPair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/stableSwapPairV2.ts
       entities:
@@ -80,7 +80,7 @@ templates:
       abi: StableSwapPairV2
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/stableSwapPairV3.ts
       entities:
@@ -113,7 +113,7 @@ templates:
       abi: StableSwap3PairV2
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/stableSwapPairV3.ts
       entities:
@@ -146,7 +146,7 @@ templates:
       abi: ERC20
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/transfer.ts
       entities:

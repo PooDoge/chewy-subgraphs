@@ -13,7 +13,7 @@ dataSources:
       startBlock: 17594010
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/competition.ts
       entities:
@@ -44,7 +44,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/pair.ts
       entities:
